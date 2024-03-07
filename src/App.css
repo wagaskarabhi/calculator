@@ -1,0 +1,72 @@
+/* Calculator.css
+h1 {
+  color: black;
+  text-align: center;
+}
+.calculator {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.calculator-input {
+  text-align: right;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0b7dda;
+}
+
+.calculator-result {
+  margin-top: 10px;
+}
+
+.calculator-result p {
+  text-align: right;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+  .calculator {
+    max-width: 100%;
+  }
+  .calculator-buttons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
